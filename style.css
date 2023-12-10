@@ -1,0 +1,190 @@
+body{
+    height:80vh;
+    width: 100vw;
+    background-image: url("bmw1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    background: linear-gradient(rgba(),rgba());
+}
+.nav{
+    display: flex;  
+}
+.leftn{
+    width:25vw;
+    height:12vh;
+
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+}
+.centern{
+    background-color: transparent;
+    height:12vh;
+    width: 49vw;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.rightn{
+    background-color: transparent;
+    height:12vh;
+    width:25vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color:rgba(256,256,256,0.6);
+    font-size: 2.7vh;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri12 ;
+}
+i{
+    cursor: pointer;
+    color:rgba(256,256,256,0.6);
+}
+.content{
+    background-color:transparent;
+    display: flex;
+    flex-direction: column;
+    margin:15vh;
+    margin-left: 18.5vw;;
+    height: 50vh;
+    width: 70vw;
+    color: rgba(250, 235, 215, 0.822);
+}
+.centertext{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1vh;
+    font-size: 8vh;
+    font-size: 7vw;
+    font-weight: bolder; 
+    text-decoration: underline;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 1vh;
+    font-size:2.7vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.animation{
+    margin-top: 60vh;
+    height:150vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;   
+    color:black;
+    flex-direction:column;
+    font-size: 3vh;
+    background-color:transparent;
+}
+#ct{
+    font-size: 3vh;
+    font-size: 2.5vw;
+
+}
+.img{
+    display:flex;
+    flex-direction: row-reverse;
+    height:290px;
+    width:80%;
+    background-color:transparent;
+    z-index: 4;
+    background-size: cover;
+}
+img{
+    
+    height:290px;
+
+}
+.roll{
+    display:flex;
+    flex-direction: row;
+    height:290px;
+    width:80%;
+    background-color:transparent;
+    z-index: 4;
+    background-size: cover;
+}
+.imgtext{
+    color:black;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    position:relative;
+    top:5vh;
+    left:25vw;
+    font-size: 3.9vh;
+}
+.imgt{
+    color:black;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    position:relative;
+    top:5vh;
+    left:-25vw;
+    font-size: 3.9vh;
+
+}
+.video{
+    height:100vh;
+    width:100vw;
+    background-color:transparent;
+    position: absolute;
+}
+video{
+    height:100%;
+    width:100%;
+    z-index:-1; 
+    position:absolute;
+    opacity:1;
+}
+button{
+    border-radius: 8px;
+    position: absolute;
+    border-color: transparent;
+    height:5vh;
+    width:25vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    font-size: 2.4vh;
+    color: rgba(255, 255, 255, 0.541);
+    background-color: transparent;
+    font-weight: bolder; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-seri12 ;
+}
+.goye{
+    height:50vh;
+    width: 50vw;
+    margin: 10vh;
+}
+.ig{
+    position: absolute;
+    height:50vh;
+    width: 50vw;
+}
+.imgg{
+    color:black;
+    font-weight: bolder;
+    display: flex;
+    text-align: center;
+    position:relative;
+    top:5vh;
+    left:25vw;
+    font-size: 3.9vh;
+}
